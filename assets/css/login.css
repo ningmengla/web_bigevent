@@ -1,0 +1,68 @@
+/* 设置大体样式 */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /* 不平铺 居中 */
+    background: url('/assets/images/login_bg.jpg') no-repeat center;
+    /* 图片适应整个容器 */
+    background-size: cover;
+}
+
+/* 登录注册区域 开始 */
+/* 区域大体设置 */
+.loginAndRegBox {
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    /* 绝对定位 */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* css3 移动自身的50% */
+    transform: translate(-50%, -50%);
+}
+/* 标题图片 */
+.title-box {
+    height: 60px;
+    /* 不平铺 居中 */
+    background: url('/assets/images/login_title.png') no-repeat center;
+}
+/* 隐藏注册窗口 */
+.reg-box {
+    display: none;
+}
+/* 设置表单内部样式 */
+.layui-form {
+    padding: 0 30px;
+}
+/* 设置跳转的链接样式 */
+.links {
+    /* 内容右对齐 */
+    display: flex;
+    justify-content: flex-end;
+}
+/* 设置a标签的样式 */
+.links a {
+    font-size: 12px;
+}
+/* 设置小图标样式 开始 */
+.layui-form-item {
+    /* 绝对定位 */
+    position: relative;
+}
+/* 设置小图标位置 */
+.layui-icon {
+    /* 相对定位 */
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+/* 内容文字进行偏移 */
+.layui-input {
+    padding-left: 32px;
+}
+/* 设置小图标样式 结束 */
+/* 登录注册区域 结束 */
