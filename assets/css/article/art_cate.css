@@ -1,0 +1,24 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 15px;
+  background-color: #f2f3f5;
+}
+
+.layui-card-header {
+  display: flex;
+  /* 两端对齐 */
+  justify-content: space-between;
+  /* 按钮居中对齐 */
+  align-items: center;
+}
+/* 弹出层表单样式 */
+#form-add,
+#form-edit {
+  padding-top: 20px;
+  padding-right: 30px;
+}
